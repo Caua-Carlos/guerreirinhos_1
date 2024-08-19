@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.cima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #fece31;
+    padding: 80px 0px;
+}
+
+.cima h4 {
+    font-weight: 600;
+}
+
+.cima h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 48px;
+}
+
+.cima p {
+    font-size: 15px;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.item {
+    background: white;
+    padding-bottom: 30px;
+}
+
+.bottom .texto {
+    font-size: 12px;
+}
+
+.bottom img {
+    padding: 40px;
+}
+
+#imagem1 {
+    background-color: #F70C2A;
+}
+
+#imagem2 {
+    background-color: #006EEB;
+}
+
+#imagem3 {
+    background-color: #00991A;
+}
+
+.funçã {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#chrome {
+    color: #F70C2A;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+#search {
+    color: #006EEB;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+#maps {
+    color: #00991A;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+#learn1 {
+    color: #F70C2A;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#learn2 {
+    color: #007EF6;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#learn3 {
+    color: #00991A;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
